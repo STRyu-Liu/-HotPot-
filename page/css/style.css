@@ -1,0 +1,27 @@
+
+
+.weibo{
+	color:#FFFFFF;
+	background-color:#f44242;
+	width: 65px;
+}
+.weixin{
+	color:#FFFFFF;
+	background-color:#20b21e;
+	width: 65px;
+}
+body{
+	background-color: #fffb96;
+}
+.baocaiming{
+	
+	width: 500px;
+}
+li{
+	padding: 10px 15px;
+	display: inline-block;/*使元素在一条横线上*/
+	
+	}
+ul{
+	border-bottom: 5px solid #e09b8d;
+}
