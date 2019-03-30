@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>成为会员</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>创建账户成为会员</h1>
+	<form method="post">
+		<fieldset>
+
+			<h2 class="account">个人资料</h2>
+			<p>
+				<label for="name">用户名：</label>
+				<input type="text" name="dataname" id="name" required="required" autofocus="autofocus" />
+			</p>
+			<p>
+				<label for="email">电子邮箱：</label>
+				<input type="email" name="dataname"  id="email" required="required" autofocus="autofocus" placeholder="yourname@example.com" />
+			</p>
+			<p>
+				<label for="password">密码：</label>
+				<input type="password" name="password" id="password" required="required" />
+			</p>
+			<p>
+				<label for="password">确认密码：</label>
+				<input type="password" name="password2" id="password2" required="required" />
+			</p>
+
+		</fieldset>
+
+		<fieldset>
+			<h2 class="address">配送地址</h2>
+			<p>
+				<label for="city">城市：</label>
+				<select id="city" name="city">
+					<optgroup label="中国">
+						<option>北京</option>
+						<option>上海</option>
+						<option>重庆</option>
+						<option>贵阳</option>
+					</optgroup>
+					<optgroup label="日本">
+						<option>東京</option>
+						<option>大阪</option>
+						<option>横浜</option>
+					</optgroup>
+				</select>
+				<p>
+					<label for="street">详细地址：</label>
+					<input type="text" name="street" id="street" required="required" placeholder="-区-街-小区-栋-号-收">
+				</p>
+
+			</p>
+			
+		</fieldset>
+
+
+
+		<fieldset>
+			<h2 class="email">电子邮件</h2>
+			<input type="checkbox" name="checkboxset" id="email-ok-news">
+			<label for="email-ok-news">通过邮件接收新品消息</label>
+			
+		</fieldset>
+		<input type="submit" value="创建账户" class="btn" /> 
+
+		
+	</form>
+
+
+</body>
+</html>

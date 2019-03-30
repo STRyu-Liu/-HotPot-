@@ -4,14 +4,17 @@
 	color:#FFFFFF;
 	background-color:#f44242;
 	width: 65px;
+	border-radius: 20px;
 }
 .weixin{
 	color:#FFFFFF;
 	background-color:#20b21e;
 	width: 65px;
+	border-radius: 20px;
 }
 body{
 	background-color: #fffb96;
+
 }
 .baocaiming{
 	
@@ -20,30 +23,45 @@ body{
 li{
 	padding: 10px 15px;
 	display: inline-block;/*使元素在一条横线上*/
+	background:  #F8ABA6;
+	border-radius: 20px;
 	
 	}
+
 ul{
 	border-bottom: 5px solid #e09b8d;
 }
 .mainimg{
 	max-width: 100%;
 }
+.indexTitle{
 
-@font-face {
-    font-family: 'pt_sansitalic';
-    src: url('PTS56F-webfont.eot');
-    src: url('PTS56F-webfont.eot?#iefix') format('embedded-opentype'),
-         url('PTS56F-webfont.woff2') format('woff2'),
-         url('PTS56F-webfont.woff') format('woff'),
-         url('PTS56F-webfont.ttf') format('truetype'),
-         url('PTS56F-webfont.svg#pt_sansitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	text-shadow: 3px 3px #AFDFE4;
+}
+.testback{
+	color: white;
+	background-color: aqua;
+	background:linear-gradient(to bottom right,aqua,navy);
 }
 
-.testFont{
-	font-family: 'pt_sansitalic',pt_sansitalic;
-	font-size: 100%;
-	line-height: 1.25;
+ol{
+	list-style: upper-alpha;
 }
+.btn{
+	height: 50px;
+	width: 100px;
+	background-color: #B5495B;
+	color: #fff;
+	border-radius: 10px;
+	
+}
+
+  label{
+            cursor: pointer;
+            display: inline-block;
+            padding: 3px 6px;
+            text-align: right;
+            width: 160px;
+            vertical-align: top;
+        }/*来自复制 添加以对其文本框*/
+
